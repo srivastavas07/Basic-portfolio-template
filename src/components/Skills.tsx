@@ -1,4 +1,4 @@
-import { Database, Server, Code, Globe, Braces, Terminal, Git, Cloud } from 'lucide-react';
+import { Database, Server, Code, Globe, Braces, Terminal, Cloud } from 'lucide-react';
 
 const skills = [
   {
@@ -28,7 +28,7 @@ const skills = [
   },
   {
     category: "Version Control",
-    icon: Git,
+    icon: Code,
     technologies: ["Git", "GitHub", "GitLab", "Bitbucket"]
   },
   {

@@ -3,8 +3,10 @@ import { Button } from './ui/button';
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center pt-16">
-      <div className="container px-4 py-16 flex flex-col items-center text-center">
+    <section id="about" className="min-h-screen flex items-center justify-center pt-16 relative overflow-hidden">
+      <div className="animated-gradient"></div>
+      <div className="hero-pattern absolute inset-0 opacity-20"></div>
+      <div className="container px-4 py-16 flex flex-col items-center text-center relative z-10">
         <div className="mb-8 animate-fade-up opacity-0" style={{ animationDelay: '200ms' }}>
           <span className="text-primary text-lg font-semibold">👋 Welcome to my portfolio</span>
         </div>

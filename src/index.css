@@ -59,3 +59,28 @@
 .nav-link:hover::after {
   @apply w-full;
 }
+
+.project-card {
+  @apply relative overflow-hidden transition-all duration-300 hover:transform hover:scale-105;
+}
+
+.project-card::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-primary/20 to-purple-400/20 opacity-0 transition-opacity duration-300;
+}
+
+.project-card:hover::before {
+  @apply opacity-100;
+}
+
+.skill-icon {
+  @apply text-primary transition-all duration-300 group-hover:scale-110 group-hover:text-white;
+}
+
+.timeline-dot {
+  @apply absolute w-4 h-4 bg-primary rounded-full shadow-lg shadow-primary/50;
+}
+
+.timeline-line {
+  @apply absolute w-0.5 bg-primary/20;
+}

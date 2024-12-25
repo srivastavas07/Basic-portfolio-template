@@ -51,6 +51,6 @@ This project is built with .
 - Tailwind CSS
 
 ## How can I deploy this project?
+There are many tutorials available on youtube.
 
-Simply open [Link](https://lovable.dev/projects/b44f7368-55cb-4182-943d-09e7d92a764a) and click on Share -> Publish.
 
